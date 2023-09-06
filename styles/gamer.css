@@ -63,6 +63,7 @@ header>nav {
 header nav ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style: none;
   margin-right: 7rem;
 
@@ -536,10 +537,11 @@ footer ul li a {
   header nav .company-logo-info {
     margin-left: 0.5rem;
   }
-  
-.company-logo-info h1{
-  font-size: 48px;
-}
+
+  .company-logo-info h1 {
+    font-size: 48px;
+  }
+
   header>nav>ul {
     flex-direction: column;
     align-items: center;
@@ -550,9 +552,10 @@ footer ul li a {
     font-size: 24px;
   }
 
-  .follow-btn{
+  .follow-btn {
     font-size: 24px;
   }
+
   .banner {
     flex-direction: column-reverse;
 
