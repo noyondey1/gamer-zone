@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* max-width: 1440px; */
+/* margin: 0 auto; */
+
+
+
+.company-logo-info {
+  display: flex;
+  align-items: center;
+  margin-left: 8rem;
+}
+
+.company-logo-info img {
+  margin-right: 1rem;
+  width: 86.041px;
+  height: 40px;
+}
+
+.company-logo-info span {
+  color: #FF42A5
+}
+
+.description-text {
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+
+}
+
+.primary-btn {
+  color: #FFF;
+  font-size: 15px;
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 48px;
+  background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+header>nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 130px;
+  padding: 5px 0;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* .company-logo-info h1 {} */
+
+/* .company-logo-info h1 span {
+  color:
+} */
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 7rem;
+
+}
+
+header nav ul li {
+  margin-left: 35px;
+  font-size: 18px;
+}
+
+header nav ul li a {
+  color: #3C354F;
+  text-decoration: none;
+
+}
+
+.follow-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* font-size: 18px; */
+  border: 0;
+  border-radius: 14px;
+}
+
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner section */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-banner-col {
+  position: relative;
+}
+
+.banner-info {
+  position: absolute;
+  top: 5rem;
+  left: 8rem;
+}
+
+/* .banner-title span {
+  color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+} */
+
+.small-text {
+  display: flex;
+  flex-direction: column;
+  color: #534C64;
+  font-size: 20px;
+  gap: 5px;
+  padding: 8px;
+  margin-left: -7px;
+  margin-bottom: 1rem;
+}
+
+.banner-btn {
+  color: #FFF;
+  font-size: 15px;
+  background-color: #4EC5F7;
+  border: 0;
+  border-radius: 48px;
+  background: #4EC5F7;
+  padding: 5px 8px;
+}
+
+.right-banner-col {
+  width: 50%;
+}
+
+.right-banner-col img {
+  width: 62%;
+  margin-left: 9em;
+
+}
+
+/* online videos container */
+.online-videos-container {
+  margin-top: 120px;
+}
+
+.online-video-info {
+  text-align: center;
+}
+
+.online-video-info h3 {
+  font-size: 38px;
+}
+
+.videos-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem;
+
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 263px;
+  height: 355px;
+  margin: 0 10px;
+
+}
+
+.videos-image {
+  width: 100%;
+}
+
+.section-title {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+
+  .description-text {
+    font-size: 18px;
+    /* font-weight: 500; */
+  }
+
+  header>nav {
+    flex-direction: column;
+    padding: 35px 0;
+    box-shadow: none;
+    margin-bottom: 35px;
+  }
+
+  header nav .company-logo-info {
+    margin-left: 0.5rem;
+  }
+
+  header>nav>ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin-bottom: 1rem;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  /* .banner-text-background {
+    width: 55%;
+  } */
+  .left-banner-col {
+    width: 80%;
+    margin-left: 35px;
+  }
+
+  #banner-bg {
+    width: 100%;
+  }
+
+  .banner-info {
+    top: 6rem;
+    left: 2rem;
+  }
+
+  .right-banner-col {
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .right-banner-col img {
+    width: 92%;
+    margin-left: 1em;
+  }
+
+  .online-videos-container {
+    margin-top: 2rem;
+  }
+
+  .online-video-info h3 {
+    font-size: 22px;
+  }
+
+  .videos-image-container {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .video-info {
+    margin-top: 1rem;
+  }
+
+  .video-info p {
+    font-size: 10px;
+  }
+
+  
+}
+
+@media screen and (min-width:576px) and (max-width: 960px) {
+  .banner {
+    flex-direction: column-reverse;
+
+  }
+
+  .banner-info {
+    font-size: 24px;
+    top: 32px;
+    left: 32px;
+  }
+.small-text{
+  font-size: 28px;
+}
+  .right-banner-col {
+    width: 68%;
+  }
+
+  .right-banner-col img {
+    width: 100%;
+    margin: 0 1em;
+
+  }
+
+  .online-videos-container {
+    margin-top: 60px;
+  }
+
+  
+}
